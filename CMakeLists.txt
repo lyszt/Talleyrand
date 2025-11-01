@@ -23,6 +23,7 @@ FetchContent_MakeAvailable(ftxui)
 add_executable(Talleyrand
   main.cpp
   include/file_manager.cpp
+  include/screen_component.cpp
 )
 
 target_include_directories(Talleyrand PRIVATE
